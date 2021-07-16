@@ -6,9 +6,9 @@ Add these HTML data attributes to each outbound retailer link to enable Google T
 
 ```html
 <a href="whatever.com" 
-  data-layer-wtb_link="true"
-  data-layer-link_cta_type="wtb_retailer" 
-  data-layer-affiliation="amazon"
+  data-layer-affiliation="<affiliation>"
+  data-layer-wtb_link="<wtb_link>"
+  data-layer-link_cta_type="<link_cta_type>" 
   <!-- other attributes here -->
 >
 ```
