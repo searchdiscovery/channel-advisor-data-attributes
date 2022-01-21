@@ -8,7 +8,7 @@ Add these HTML data attributes to each outbound retailer link to enable Google T
 <a href="whatever.com" 
   data-layer-affiliation="<affiliation>"
   data-layer-wtb_link="<wtb_link>"
-  data-layer-link_cta_type="<link_cta_type>" 
+  data-layer-event_specific_type="<event_specific_type>" 
   <!-- other attributes here -->
 >
 ```
@@ -18,7 +18,7 @@ Add these HTML data attributes to each outbound retailer link to enable Google T
 |Field|Type|Description|Example|
 | --- | --- | --- | --- |
 |affiliation|string|This attribute will be used to report on which retailers users are visiting to buy products. This should always follow a consistent naming convention, as determined by Channel Advisor. For example, it should not be "amazon" in one widget/location and "amazon.com" in another. If domain names are to be used, use them consistently.|amazon, walmart|
-|link_cta_type|string|This attribute will be used to report on which type of where to buy link was clicked.|wtb_add_to_cart, wtb_buy_now, wtb_local_buy_online|
+|event_specific_type|string|This attribute will be used to report on which type of where to buy link was clicked.|wtb_add_to_cart, wtb_buy_now, wtb_local_buy_online|
 |wtb_link|static|This attribute is used to identify this as a where to buy exit link. While a value isn't explicitly required here to get tracking working, it is probably good practice to add it. Always set this to the string "true".|"true"|
 
 ## Example
